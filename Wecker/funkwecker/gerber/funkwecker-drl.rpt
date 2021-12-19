@@ -1,0 +1,29 @@
+Drill report for /home/alex/Schreibtisch/Wecker/funkwecker/funkwecker.kicad_pcb
+Created on So 12 Dez 2021 14:48:20 CET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'funkwecker-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,400mm  0,0157"  (6 holes)
+    T2  0,660mm  0,0260"  (2 holes)  (with 2 slots)
+    T3  0,750mm  0,0295"  (6 holes)
+    T4  0,800mm  0,0315"  (22 holes)
+    T5  0,900mm  0,0354"  (2 holes)
+    T6  1,000mm  0,0394"  (11 holes)
+    T7  1,100mm  0,0433"  (2 holes)
+
+    Total plated holes count 51
+
+
+Drill file 'funkwecker-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  2,290mm  0,0902"  (3 holes)
+
+    Total unplated holes count 3

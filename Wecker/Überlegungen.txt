@@ -1,0 +1,18 @@
+-Funkwecker (DCF77-Signal empfangen)
+
+-Elektronik
+    -Basis STM8-Controller
+    -Funk-IC
+    -Batterieversorgung
+    -7-Segment-Anzeige
+
+
+-Gehäuse:
+    -evtl 3D-Druck von Krissis Kollegen
+
+
+-Status:
+    -STM8 zum Laufen bekommen
+    -Kombinieren mit LED-Anzeige
+    -Mit Funkwecker-IC-verbinden
+    
