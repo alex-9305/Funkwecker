@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name funkwecker-rescue)(type Legacy)(uri ${KIPRJMOD}/funkwecker-rescue.lib)(options "")(descr ""))
+)

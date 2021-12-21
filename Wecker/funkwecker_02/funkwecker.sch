@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Funkwecker"
-Date "2021-12-12"
-Rev "0.1"
+Date "2021-12-21"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -332,7 +332,7 @@ Wire Notes Line
 	3025 5400 3025 700 
 Text Notes 3075 800  0    50   ~ 0
 µC\n
-Text GLabel 3450 2675 0    50   Input ~ 0
+Text GLabel 3325 2675 0    50   Input ~ 0
 RESET
 Text GLabel 3450 2575 0    50   Input ~ 0
 SWIM_I_O
@@ -694,13 +694,11 @@ Text Notes 4100 2525 0    35   ~ 0
 SWIM IO
 Text Notes 4250 3600 0    28   ~ 0
 SPI Clk\n
-Wire Wire Line
-	3900 2675 3450 2675
 Text GLabel 3725 3775 0    50   Input ~ 0
 Test_LED
 Wire Wire Line
 	3725 3775 3900 3775
-Text GLabel 3450 2875 0    50   Input ~ 0
+Text GLabel 3425 3350 0    50   Input ~ 0
 OSC_OUT
 $Comp
 L funkwecker-rescue:STM8L051F3P-MCU_ST_STM8 U2
@@ -713,12 +711,8 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    4500 3175
 	1    0    0    -1  
 $EndComp
-Text GLabel 3450 2775 0    50   Input ~ 0
+Text GLabel 3400 3225 0    50   Input ~ 0
 OSC_IN
-Wire Wire Line
-	3450 2775 3900 2775
-Wire Wire Line
-	3450 2875 3900 2875
 NoConn ~ 5100 2875
 NoConn ~ 5100 2975
 Text GLabel 5500 1450 2    50   Input ~ 0
@@ -750,4 +744,54 @@ F 3 "~" H 5225 1250 50  0001 C CNN
 	1    5225 1250
 	0    -1   -1   0   
 $EndComp
+$Comp
+L funkwecker-rescue:C_Small-Device C?
+U 1 1 61C20B95
+P 3600 2450
+F 0 "C?" V 3371 2450 50  0000 C CNN
+F 1 "10µF" V 3462 2450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 3600 2450 50  0001 C CNN
+F 3 "~" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L funkwecker-rescue:C_Small-Device C?
+U 1 1 61C265FF
+P 3400 2775
+F 0 "C?" V 3200 2850 50  0000 C CNN
+F 1 "100nF" V 3275 2850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 3400 2775 50  0001 C CNN
+F 3 "~" H 3400 2775 50  0001 C CNN
+	1    3400 2775
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3325 2675 3400 2675
+Connection ~ 3400 2675
+Wire Wire Line
+	3400 2675 3900 2675
+$Comp
+L funkwecker-rescue:GND-power #PWR?
+U 1 1 61C2841D
+P 3400 2875
+F 0 "#PWR?" H 3400 2625 50  0001 C CNN
+F 1 "GND" H 3405 2702 50  0000 C CNN
+F 2 "" H 3400 2875 50  0001 C CNN
+F 3 "" H 3400 2875 50  0001 C CNN
+	1    3400 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2875 3825 2875
+Wire Wire Line
+	3825 2875 3825 3350
+Wire Wire Line
+	3825 3350 3425 3350
+Wire Wire Line
+	3900 2775 3750 2775
+Wire Wire Line
+	3750 2775 3750 3225
+Wire Wire Line
+	3750 3225 3400 3225
 $EndSCHEMATC
