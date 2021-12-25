@@ -60,7 +60,7 @@ U 1 1 61A9DC0D
 P 1275 1400
 F 0 "C1" H 1367 1446 50  0000 L CNN
 F 1 "1µF" H 1367 1355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 1275 1400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1275 1400 50  0001 C CNN
 F 3 "~" H 1275 1400 50  0001 C CNN
 	1    1275 1400
 	1    0    0    -1  
@@ -71,7 +71,7 @@ U 1 1 61A9DF98
 P 2300 1400
 F 0 "C2" H 2392 1446 50  0000 L CNN
 F 1 "1µF" H 2392 1355 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 2300 1400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2300 1400 50  0001 C CNN
 F 3 "~" H 2300 1400 50  0001 C CNN
 	1    2300 1400
 	1    0    0    -1  
@@ -107,17 +107,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 1700 1875 1700
 $Comp
-L funkwecker-rescue:VCC-power #PWR0102
-U 1 1 61AA11C1
-P 925 1200
-F 0 "#PWR0102" H 925 1050 50  0001 C CNN
-F 1 "VCC" H 940 1373 50  0000 C CNN
-F 2 "" H 925 1200 50  0001 C CNN
-F 3 "" H 925 1200 50  0001 C CNN
-	1    925  1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L funkwecker-rescue:VCC-power #PWR0104
 U 1 1 61AA832C
 P 900 3375
@@ -126,17 +115,6 @@ F 1 "VCC" H 915 3548 50  0000 C CNN
 F 2 "" H 900 3375 50  0001 C CNN
 F 3 "" H 900 3375 50  0001 C CNN
 	1    900  3375
-	1    0    0    -1  
-$EndComp
-$Comp
-L funkwecker-rescue:VDD-power #PWR0105
-U 1 1 61AA994D
-P 2575 1200
-F 0 "#PWR0105" H 2575 1050 50  0001 C CNN
-F 1 "VDD" H 2590 1373 50  0000 C CNN
-F 2 "" H 2575 1200 50  0001 C CNN
-F 3 "" H 2575 1200 50  0001 C CNN
-	1    2575 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -380,7 +358,7 @@ L funkwecker-rescue:R_Small-Device R2
 U 1 1 61B45613
 P 5475 3925
 F 0 "R2" H 5534 3971 50  0000 L CNN
-F 1 "330" H 5534 3880 50  0000 L CNN
+F 1 "1k" H 5534 3880 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 5475 3925 50  0001 C CNN
 F 3 "~" H 5475 3925 50  0001 C CNN
 	1    5475 3925
@@ -400,32 +378,12 @@ $EndComp
 Wire Wire Line
 	4500 4150 4500 4225
 $Comp
-L funkwecker-rescue:MCP1700T-3302E_TT-dk_PMIC-Voltage-Regulators-Linear U8
-U 1 1 61CCF659
-P 1875 2375
-F 0 "U8" H 1875 2662 60  0000 C CNN
-F 1 "MCP1702-5002" H 1875 2556 60  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92" H 2075 2575 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 2075 2675 60  0001 L CNN
-F 4 "MCP1700T3302ETTCT-ND" H 2075 2775 60  0001 L CNN "Digi-Key_PN"
-F 5 "MCP1700T-3302E/TT" H 2075 2875 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 2075 2975 60  0001 L CNN "Category"
-F 7 "PMIC - Voltage Regulators - Linear" H 2075 3075 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011779" H 2075 3175 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/MCP1700T-3302E-TT/MCP1700T3302ETTCT-ND/652677" H 2075 3275 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC REG LINEAR 3.3V 250MA SOT23-3" H 2075 3375 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 2075 3475 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2075 3575 60  0001 L CNN "Status"
-	1    1875 2375
-	1    0    0    -1  
-$EndComp
-$Comp
 L funkwecker-rescue:C_Small-Device C5
 U 1 1 61CCF65F
 P 1275 2575
 F 0 "C5" H 1367 2621 50  0000 L CNN
-F 1 "1µF" H 1367 2530 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 1275 2575 50  0001 C CNN
+F 1 "0.33µF" H 1367 2530 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1275 2575 50  0001 C CNN
 F 3 "~" H 1275 2575 50  0001 C CNN
 	1    1275 2575
 	1    0    0    -1  
@@ -435,8 +393,8 @@ L funkwecker-rescue:C_Small-Device C6
 U 1 1 61CCF665
 P 2300 2575
 F 0 "C6" H 2392 2621 50  0000 L CNN
-F 1 "1µF" H 2392 2530 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 2300 2575 50  0001 C CNN
+F 1 "0.1µF" H 2392 2530 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2300 2575 50  0001 C CNN
 F 3 "~" H 2300 2575 50  0001 C CNN
 	1    2300 2575
 	1    0    0    -1  
@@ -745,21 +703,10 @@ F 3 "~" H 5225 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L funkwecker-rescue:C_Small-Device C?
-U 1 1 61C20B95
-P 3600 2450
-F 0 "C?" V 3371 2450 50  0000 C CNN
-F 1 "10µF" V 3462 2450 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 3600 2450 50  0001 C CNN
-F 3 "~" H 3600 2450 50  0001 C CNN
-	1    3600 2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L funkwecker-rescue:C_Small-Device C?
+L funkwecker-rescue:C_Small-Device C9
 U 1 1 61C265FF
 P 3400 2775
-F 0 "C?" V 3200 2850 50  0000 C CNN
+F 0 "C9" V 3200 2850 50  0000 C CNN
 F 1 "100nF" V 3275 2850 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 3400 2775 50  0001 C CNN
 F 3 "~" H 3400 2775 50  0001 C CNN
@@ -772,10 +719,10 @@ Connection ~ 3400 2675
 Wire Wire Line
 	3400 2675 3900 2675
 $Comp
-L funkwecker-rescue:GND-power #PWR?
+L funkwecker-rescue:GND-power #PWR0116
 U 1 1 61C2841D
 P 3400 2875
-F 0 "#PWR?" H 3400 2625 50  0001 C CNN
+F 0 "#PWR0116" H 3400 2625 50  0001 C CNN
 F 1 "GND" H 3405 2702 50  0000 C CNN
 F 2 "" H 3400 2875 50  0001 C CNN
 F 3 "" H 3400 2875 50  0001 C CNN
@@ -794,4 +741,37 @@ Wire Wire Line
 	3750 2775 3750 3225
 Wire Wire Line
 	3750 3225 3400 3225
+$Comp
+L funkwecker-rescue:VDD-power #PWR0105
+U 1 1 61AA994D
+P 2575 1200
+F 0 "#PWR0105" H 2575 1050 50  0001 C CNN
+F 1 "VDD" H 2590 1373 50  0000 C CNN
+F 2 "" H 2575 1200 50  0001 C CNN
+F 3 "" H 2575 1200 50  0001 C CNN
+	1    2575 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L funkwecker-rescue:VCC-power #PWR0102
+U 1 1 61AA11C1
+P 925 1200
+F 0 "#PWR0102" H 925 1050 50  0001 C CNN
+F 1 "VCC" H 940 1373 50  0000 C CNN
+F 2 "" H 925 1200 50  0001 C CNN
+F 3 "" H 925 1200 50  0001 C CNN
+	1    925  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U3
+U 1 1 61C84B96
+P 1875 2375
+F 0 "U3" H 1875 2617 50  0000 C CNN
+F 1 "L7805" H 1875 2526 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1900 2225 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1875 2325 50  0001 C CNN
+	1    1875 2375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
