@@ -1,0 +1,2495 @@
+12:44:21 **** Build of configuration Debug for project funkwecker ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c6tx.d" -MT"Core/Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c6tx.o" "../Core/Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc "../Core/Src/init.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/init.d" -MT"Core/Src/init.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/init.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1144,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:1859:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1859 | HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1156:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1156 | HAL_StatusTypeDef HAL_RCC_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1144,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:1859:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1859 | HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1157:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1157 | HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1156:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1156 | HAL_StatusTypeDef HAL_RCC_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1158:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1158 | HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1157:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1157 | HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:242,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:237:1: error: unknown type name 'HAL_StatusTypeDef'
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1158:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1158 | HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:242,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:237:1: error: unknown type name 'HAL_StatusTypeDef'
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:246,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:279:1: error: unknown type name 'HAL_StatusTypeDef'
+  279 | HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:246,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:279:1: error: unknown type name 'HAL_StatusTypeDef'
+  279 | HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:280:1: error: unknown type name 'HAL_StatusTypeDef'
+  280 | HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:280:1: error: unknown type name 'HAL_StatusTypeDef'
+  280 | HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:281:1: error: unknown type name 'HAL_StatusTypeDef'
+  281 | HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:281:1: error: unknown type name 'HAL_StatusTypeDef'
+  281 | HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:282:1: error: unknown type name 'HAL_StatusTypeDef'
+  282 | HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:282:1: error: unknown type name 'HAL_StatusTypeDef'
+  282 | HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:283:1: error: unknown type name 'HAL_StatusTypeDef'
+  283 | HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:117:3: error: unknown type name 'HAL_LockTypeDef'
+  117 |   HAL_LockTypeDef       Lock;                            /*!< DMA locking object                     */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:283:1: error: unknown type name 'HAL_StatusTypeDef'
+  283 | HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:117:3: error: unknown type name 'HAL_LockTypeDef'
+  117 |   HAL_LockTypeDef       Lock;                            /*!< DMA locking object                     */
+      |   ^~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:367:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  367 | HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:367:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  367 | HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:368:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  368 | HAL_StatusTypeDef HAL_DMA_DeInit (DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:368:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  368 | HAL_StatusTypeDef HAL_DMA_DeInit (DMA_HandleTypeDef *hdma);
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1144,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:1859:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1859 | HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:377:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  377 | HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1156:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1156 | HAL_StatusTypeDef HAL_RCC_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:377:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  377 | HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:378:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  378 | HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1157:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1157 | HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:379:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  379 | HAL_StatusTypeDef HAL_DMA_Abort(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:378:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  378 | HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:380:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  380 | HAL_StatusTypeDef HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1158:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1158 | HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:379:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  379 | HAL_StatusTypeDef HAL_DMA_Abort(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:381:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  381 | HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:242,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:237:1: error: unknown type name 'HAL_StatusTypeDef'
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:380:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  380 | HAL_StatusTypeDef HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:383:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  383 | HAL_StatusTypeDef HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID, void (* pCallback)( DMA_HandleTypeDef * _hdma));
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:246,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:279:1: error: unknown type name 'HAL_StatusTypeDef'
+  279 | HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:381:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+  381 | HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:384:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  384 | HAL_StatusTypeDef HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:98:3: error: unknown type name 'HAL_LockTypeDef'
+   98 |   HAL_LockTypeDef             Lock;             /*!< FLASH locking object                */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:280:1: error: unknown type name 'HAL_StatusTypeDef'
+  280 | HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:383:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  383 | HAL_StatusTypeDef HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID, void (* pCallback)( DMA_HandleTypeDef * _hdma));
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:281:1: error: unknown type name 'HAL_StatusTypeDef'
+  281 | HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:384:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  384 | HAL_StatusTypeDef HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:248,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:750:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  750 | HAL_StatusTypeDef  HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t *PageError);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:98:3: error: unknown type name 'HAL_LockTypeDef'
+   98 |   HAL_LockTypeDef             Lock;             /*!< FLASH locking object                */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:282:1: error: unknown type name 'HAL_StatusTypeDef'
+  282 | HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:248,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:750:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  750 | HAL_StatusTypeDef  HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t *PageError);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:283:1: error: unknown type name 'HAL_StatusTypeDef'
+  283 | HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:117:3: error: unknown type name 'HAL_LockTypeDef'
+  117 |   HAL_LockTypeDef       Lock;                            /*!< DMA locking object                     */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:751:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  751 | HAL_StatusTypeDef  HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:751:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  751 | HAL_StatusTypeDef  HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1144,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:1859:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1859 | HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:761:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  761 | HAL_StatusTypeDef  HAL_FLASHEx_OBErase(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:367:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  367 | HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:761:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  761 | HAL_StatusTypeDef  HAL_FLASHEx_OBErase(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:238,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1156:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1156 | HAL_StatusTypeDef HAL_RCC_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:368:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  368 | HAL_StatusTypeDef HAL_DMA_DeInit (DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:762:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  762 | HAL_StatusTypeDef  HAL_FLASHEx_OBProgram(FLASH_OBProgramInitTypeDef *pOBInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:762:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  762 | HAL_StatusTypeDef  HAL_FLASHEx_OBProgram(FLASH_OBProgramInitTypeDef *pOBInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:377:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  377 | HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1157:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1157 | HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:259:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  259 | HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:259:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  259 | HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:378:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  378 | HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:1158:1: error: unknown type name 'HAL_StatusTypeDef'
+ 1158 | HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:260:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  260 | HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:260:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  260 | HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:379:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  379 | HAL_StatusTypeDef HAL_DMA_Abort(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:242,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:237:1: error: unknown type name 'HAL_StatusTypeDef'
+  237 | HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:276:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  276 | HAL_StatusTypeDef HAL_FLASH_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:380:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  380 | HAL_StatusTypeDef HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:246,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:279:1: error: unknown type name 'HAL_StatusTypeDef'
+  279 | HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:276:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  276 | HAL_StatusTypeDef HAL_FLASH_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:381:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  381 | HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:280:1: error: unknown type name 'HAL_StatusTypeDef'
+  280 | HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:277:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  277 | HAL_StatusTypeDef HAL_FLASH_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:383:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  383 | HAL_StatusTypeDef HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID, void (* pCallback)( DMA_HandleTypeDef * _hdma));
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:277:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  277 | HAL_StatusTypeDef HAL_FLASH_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:281:1: error: unknown type name 'HAL_StatusTypeDef'
+  281 | HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:384:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  384 | HAL_StatusTypeDef HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:98:3: error: unknown type name 'HAL_LockTypeDef'
+   98 |   HAL_LockTypeDef             Lock;             /*!< FLASH locking object                */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:282:1: error: unknown type name 'HAL_StatusTypeDef'
+  282 | HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
+      | ^~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:278:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  278 | HAL_StatusTypeDef HAL_FLASH_OB_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:278:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  278 | HAL_StatusTypeDef HAL_FLASH_OB_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h:283:1: error: unknown type name 'HAL_StatusTypeDef'
+  283 | HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+      | ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:117:3: error: unknown type name 'HAL_LockTypeDef'
+  117 |   HAL_LockTypeDef       Lock;                            /*!< DMA locking object                     */
+      |   ^~~~~~~~~~~~~~~
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:248,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:750:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  750 | HAL_StatusTypeDef  HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t *PageError);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:279:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  279 | HAL_StatusTypeDef HAL_FLASH_OB_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:367:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  367 | HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:279:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  279 | HAL_StatusTypeDef HAL_FLASH_OB_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:751:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  751 | HAL_StatusTypeDef  HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:368:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  368 | HAL_StatusTypeDef HAL_DMA_DeInit (DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:304:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  304 | HAL_StatusTypeDef       FLASH_WaitForLastOperation(uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:346:3: error: unknown type name 'HAL_LockTypeDef'
+  346 |   HAL_LockTypeDef                    Lock;              /*!< Locking object                                    */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:761:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  761 | HAL_StatusTypeDef  HAL_FLASHEx_OBErase(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:304:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  304 | HAL_StatusTypeDef       FLASH_WaitForLastOperation(uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:377:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  377 | HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:346:3: error: unknown type name 'HAL_LockTypeDef'
+  346 |   HAL_LockTypeDef                    Lock;              /*!< Locking object                                    */
+      |   ^~~~~~~~~~~~~~~
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1857,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:114:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  114 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Init(TIM_HandleTypeDef *htim, TIM_HallSensor_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:762:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  762 | HAL_StatusTypeDef  HAL_FLASHEx_OBProgram(FLASH_OBProgramInitTypeDef *pOBInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:378:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  378 | HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1857,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:114:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  114 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Init(TIM_HandleTypeDef *htim, TIM_HallSensor_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:115:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  115 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:259:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  259 | HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:379:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  379 | HAL_StatusTypeDef HAL_DMA_Abort(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:115:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  115 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:121:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  121 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:380:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  380 | HAL_StatusTypeDef HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:122:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  122 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:260:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  260 | HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:121:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  121 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:381:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  381 | HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:122:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  122 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:124:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  124 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:383:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  383 | HAL_StatusTypeDef HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID, void (* pCallback)( DMA_HandleTypeDef * _hdma));
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:276:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  276 | HAL_StatusTypeDef HAL_FLASH_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:125:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  125 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:124:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  124 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:250,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:384:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  384 | HAL_StatusTypeDef HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:98:3: error: unknown type name 'HAL_LockTypeDef'
+   98 |   HAL_LockTypeDef             Lock;             /*!< FLASH locking object                */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:127:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  127 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:125:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  125 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:277:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  277 | HAL_StatusTypeDef HAL_FLASH_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:248,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:750:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  750 | HAL_StatusTypeDef  HAL_FLASHEx_Erase(FLASH_EraseInitTypeDef *pEraseInit, uint32_t *PageError);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:128:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  128 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:127:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  127 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:751:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  751 | HAL_StatusTypeDef  HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:139:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  139 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:278:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  278 | HAL_StatusTypeDef HAL_FLASH_OB_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:128:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  128 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:140:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  140 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:139:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  139 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:761:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  761 | HAL_StatusTypeDef  HAL_FLASHEx_OBErase(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:143:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  143 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:140:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  140 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:279:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  279 | HAL_StatusTypeDef HAL_FLASH_OB_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:762:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  762 | HAL_StatusTypeDef  HAL_FLASHEx_OBProgram(FLASH_OBProgramInitTypeDef *pOBInit);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:144:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  144 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:143:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  143 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:286,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:259:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  259 | HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:304:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  304 | HAL_StatusTypeDef       FLASH_WaitForLastOperation(uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:346:3: error: unknown type name 'HAL_LockTypeDef'
+  346 |   HAL_LockTypeDef                    Lock;              /*!< Locking object                                    */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:147:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  147 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:144:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  144 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:260:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  260 | HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1857,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:114:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  114 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Init(TIM_HandleTypeDef *htim, TIM_HallSensor_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:147:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  147 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:148:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  148 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:148:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  148 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:115:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  115 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:159:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  159 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:276:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  276 | HAL_StatusTypeDef HAL_FLASH_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:159:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  159 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:121:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  121 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:160:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  160 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:277:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  277 | HAL_StatusTypeDef HAL_FLASH_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:122:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  122 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:160:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  160 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:163:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  163 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:163:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  163 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:164:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  164 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:124:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  124 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:278:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  278 | HAL_StatusTypeDef HAL_FLASH_OB_Unlock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:164:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  164 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:125:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  125 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:166:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  166 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:166:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  166 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:167:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  167 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:127:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  127 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:279:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  279 | HAL_StatusTypeDef HAL_FLASH_OB_Lock(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:167:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  167 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:178:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  178 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:128:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  128 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:178:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  178 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:179:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  179 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:304:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_DMA_StateTypeDef'?
+  304 | HAL_StatusTypeDef       FLASH_WaitForLastOperation(uint32_t Timeout);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_DMA_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:346:3: error: unknown type name 'HAL_LockTypeDef'
+  346 |   HAL_LockTypeDef                    Lock;              /*!< Locking object                                    */
+      |   ^~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:139:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  139 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:182:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  182 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:179:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  179 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:140:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  140 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1857,
+                 from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:114:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  114 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Init(TIM_HandleTypeDef *htim, TIM_HallSensor_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:182:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  182 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:183:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  183 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:143:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  143 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:115:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  115 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:183:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  183 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:193:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  193 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:144:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  144 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:121:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  121 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:193:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  193 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:195:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  195 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_IT(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:147:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  147 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:122:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  122 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:195:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  195 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_IT(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:197:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  197 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_DMA(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:148:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  148 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:124:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  124 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:197:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  197 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_DMA(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:199:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  199 | HAL_StatusTypeDef HAL_TIMEx_MasterConfigSynchronization(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:159:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  159 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:125:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  125 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:199:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  199 | HAL_StatusTypeDef HAL_TIMEx_MasterConfigSynchronization(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:201:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  201 | HAL_StatusTypeDef HAL_TIMEx_ConfigBreakDeadTime(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:127:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  127 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:160:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  160 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:201:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  201 | HAL_StatusTypeDef HAL_TIMEx_ConfigBreakDeadTime(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:203:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  203 | HAL_StatusTypeDef HAL_TIMEx_RemapConfig(TIM_HandleTypeDef *htim, uint32_t Remap);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:163:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  163 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:128:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  128 | HAL_StatusTypeDef HAL_TIMEx_HallSensor_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:203:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  203 | HAL_StatusTypeDef HAL_TIMEx_RemapConfig(TIM_HandleTypeDef *htim, uint32_t Remap);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:164:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  164 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1869:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1869 | HAL_StatusTypeDef HAL_TIM_Base_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1869:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1869 | HAL_StatusTypeDef HAL_TIM_Base_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:139:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  139 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:166:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  166 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1870:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1870 | HAL_StatusTypeDef HAL_TIM_Base_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1870:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1870 | HAL_StatusTypeDef HAL_TIM_Base_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:140:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  140 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:167:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  167 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1874:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1874 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1874:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1874 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:143:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  143 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:178:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  178 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1875:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1875 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:144:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  144 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:179:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  179 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1875:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1875 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:147:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  147 | HAL_StatusTypeDef HAL_TIMEx_OCN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:182:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  182 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1877:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1877 | HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1877:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1877 | HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:148:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  148 | HAL_StatusTypeDef HAL_TIMEx_OCN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:183:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  183 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1878:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1878 | HAL_StatusTypeDef HAL_TIM_Base_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:159:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  159 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:193:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  193 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1878:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1878 | HAL_StatusTypeDef HAL_TIM_Base_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1880:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1880 | HAL_StatusTypeDef HAL_TIM_Base_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:195:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  195 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_IT(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:160:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  160 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1880:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1880 | HAL_StatusTypeDef HAL_TIM_Base_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:197:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  197 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_DMA(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1881:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1881 | HAL_StatusTypeDef HAL_TIM_Base_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:163:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  163 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1881:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1881 | HAL_StatusTypeDef HAL_TIM_Base_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:199:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  199 | HAL_StatusTypeDef HAL_TIMEx_MasterConfigSynchronization(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1891:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1891 | HAL_StatusTypeDef HAL_TIM_OC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1891:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1891 | HAL_StatusTypeDef HAL_TIM_OC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:164:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  164 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:201:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  201 | HAL_StatusTypeDef HAL_TIMEx_ConfigBreakDeadTime(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1892:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1892 | HAL_StatusTypeDef HAL_TIM_OC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:166:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  166 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1892:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1892 | HAL_StatusTypeDef HAL_TIM_OC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1896:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1896 | HAL_StatusTypeDef HAL_TIM_OC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:167:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  167 | HAL_StatusTypeDef HAL_TIMEx_PWMN_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:203:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  203 | HAL_StatusTypeDef HAL_TIMEx_RemapConfig(TIM_HandleTypeDef *htim, uint32_t Remap);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1896:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1896 | HAL_StatusTypeDef HAL_TIM_OC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1897:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1897 | HAL_StatusTypeDef HAL_TIM_OC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:178:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  178 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1869:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1869 | HAL_StatusTypeDef HAL_TIM_Base_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1897:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1897 | HAL_StatusTypeDef HAL_TIM_OC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1899:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1899 | HAL_StatusTypeDef HAL_TIM_OC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:179:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  179 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1899:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1899 | HAL_StatusTypeDef HAL_TIM_OC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1870:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1870 | HAL_StatusTypeDef HAL_TIM_Base_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:182:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  182 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1900:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1900 | HAL_StatusTypeDef HAL_TIM_OC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1874:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1874 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1900:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1900 | HAL_StatusTypeDef HAL_TIM_OC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:183:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  183 | HAL_StatusTypeDef HAL_TIMEx_OnePulseN_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1902:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1902 | HAL_StatusTypeDef HAL_TIM_OC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1875:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1875 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1902:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1902 | HAL_StatusTypeDef HAL_TIM_OC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:193:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  193 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1877:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1877 | HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1903:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1903 | HAL_StatusTypeDef HAL_TIM_OC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1903:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1903 | HAL_StatusTypeDef HAL_TIM_OC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:195:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  195 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_IT(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1913:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1913 | HAL_StatusTypeDef HAL_TIM_PWM_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1878:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1878 | HAL_StatusTypeDef HAL_TIM_Base_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1913:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1913 | HAL_StatusTypeDef HAL_TIM_PWM_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:197:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  197 | HAL_StatusTypeDef HAL_TIMEx_ConfigCommutEvent_DMA(TIM_HandleTypeDef *htim, uint32_t  InputTrigger,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1914:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1914 | HAL_StatusTypeDef HAL_TIM_PWM_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1880:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1880 | HAL_StatusTypeDef HAL_TIM_Base_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:199:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  199 | HAL_StatusTypeDef HAL_TIMEx_MasterConfigSynchronization(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1914:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1914 | HAL_StatusTypeDef HAL_TIM_PWM_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1918:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1918 | HAL_StatusTypeDef HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:201:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  201 | HAL_StatusTypeDef HAL_TIMEx_ConfigBreakDeadTime(TIM_HandleTypeDef *htim,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1881:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1881 | HAL_StatusTypeDef HAL_TIM_Base_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1919:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1919 | HAL_StatusTypeDef HAL_TIM_PWM_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1918:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1918 | HAL_StatusTypeDef HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:203:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  203 | HAL_StatusTypeDef HAL_TIMEx_RemapConfig(TIM_HandleTypeDef *htim, uint32_t Remap);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1891:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1891 | HAL_StatusTypeDef HAL_TIM_OC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1921:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1921 | HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1919:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1919 | HAL_StatusTypeDef HAL_TIM_PWM_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1922:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1922 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:334,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1869:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1869 | HAL_StatusTypeDef HAL_TIM_Base_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1892:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1892 | HAL_StatusTypeDef HAL_TIM_OC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1921:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1921 | HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1924:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1924 | HAL_StatusTypeDef HAL_TIM_PWM_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1870:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1870 | HAL_StatusTypeDef HAL_TIM_Base_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1896:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1896 | HAL_StatusTypeDef HAL_TIM_OC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1922:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1922 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1874:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1874 | HAL_StatusTypeDef HAL_TIM_Base_Start(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1897:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1897 | HAL_StatusTypeDef HAL_TIM_OC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1925:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1925 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1924:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1924 | HAL_StatusTypeDef HAL_TIM_PWM_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1875:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1875 | HAL_StatusTypeDef HAL_TIM_Base_Stop(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1899:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1899 | HAL_StatusTypeDef HAL_TIM_OC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1925:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1925 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1935:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1935 | HAL_StatusTypeDef HAL_TIM_IC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1877:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1877 | HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1900:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1900 | HAL_StatusTypeDef HAL_TIM_OC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1935:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1935 | HAL_StatusTypeDef HAL_TIM_IC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1936:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1936 | HAL_StatusTypeDef HAL_TIM_IC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1878:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1878 | HAL_StatusTypeDef HAL_TIM_Base_Stop_IT(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1902:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1902 | HAL_StatusTypeDef HAL_TIM_OC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1940:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1940 | HAL_StatusTypeDef HAL_TIM_IC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1936:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1936 | HAL_StatusTypeDef HAL_TIM_IC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1880:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1880 | HAL_StatusTypeDef HAL_TIM_Base_Start_DMA(TIM_HandleTypeDef *htim, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1903:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1903 | HAL_StatusTypeDef HAL_TIM_OC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1941:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1941 | HAL_StatusTypeDef HAL_TIM_IC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1940:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1940 | HAL_StatusTypeDef HAL_TIM_IC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1913:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1913 | HAL_StatusTypeDef HAL_TIM_PWM_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1881:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1881 | HAL_StatusTypeDef HAL_TIM_Base_Stop_DMA(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1943:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1943 | HAL_StatusTypeDef HAL_TIM_IC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1941:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1941 | HAL_StatusTypeDef HAL_TIM_IC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1914:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1914 | HAL_StatusTypeDef HAL_TIM_PWM_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1891:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1891 | HAL_StatusTypeDef HAL_TIM_OC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1944:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1944 | HAL_StatusTypeDef HAL_TIM_IC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1943:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1943 | HAL_StatusTypeDef HAL_TIM_IC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1918:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1918 | HAL_StatusTypeDef HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1892:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1892 | HAL_StatusTypeDef HAL_TIM_OC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1946:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1946 | HAL_StatusTypeDef HAL_TIM_IC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1944:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1944 | HAL_StatusTypeDef HAL_TIM_IC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1919:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1919 | HAL_StatusTypeDef HAL_TIM_PWM_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1896:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1896 | HAL_StatusTypeDef HAL_TIM_OC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1946:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1946 | HAL_StatusTypeDef HAL_TIM_IC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1947:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1947 | HAL_StatusTypeDef HAL_TIM_IC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1921:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1921 | HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1897:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1897 | HAL_StatusTypeDef HAL_TIM_OC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1947:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1947 | HAL_StatusTypeDef HAL_TIM_IC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1957:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1957 | HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1922:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1922 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1899:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1899 | HAL_StatusTypeDef HAL_TIM_OC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1957:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1957 | HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1958:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1958 | HAL_StatusTypeDef HAL_TIM_OnePulse_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1924:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1924 | HAL_StatusTypeDef HAL_TIM_PWM_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1900:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1900 | HAL_StatusTypeDef HAL_TIM_OC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1958:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1958 | HAL_StatusTypeDef HAL_TIM_OnePulse_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1962:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1962 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1925:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1925 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1902:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1902 | HAL_StatusTypeDef HAL_TIM_OC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1962:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1962 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1963:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1963 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1935:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1935 | HAL_StatusTypeDef HAL_TIM_IC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1903:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1903 | HAL_StatusTypeDef HAL_TIM_OC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1963:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1963 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1965:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1965 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1936:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1936 | HAL_StatusTypeDef HAL_TIM_IC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1913:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1913 | HAL_StatusTypeDef HAL_TIM_PWM_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1965:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1965 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1914:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1914 | HAL_StatusTypeDef HAL_TIM_PWM_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1966:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1966 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1940:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1940 | HAL_StatusTypeDef HAL_TIM_IC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1966:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1966 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1918:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1918 | HAL_StatusTypeDef HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1976:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1976 | HAL_StatusTypeDef HAL_TIM_Encoder_Init(TIM_HandleTypeDef *htim,  TIM_Encoder_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1976:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1976 | HAL_StatusTypeDef HAL_TIM_Encoder_Init(TIM_HandleTypeDef *htim,  TIM_Encoder_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1941:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1941 | HAL_StatusTypeDef HAL_TIM_IC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1977:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1977 | HAL_StatusTypeDef HAL_TIM_Encoder_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1919:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1919 | HAL_StatusTypeDef HAL_TIM_PWM_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1977:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1977 | HAL_StatusTypeDef HAL_TIM_Encoder_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1943:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1943 | HAL_StatusTypeDef HAL_TIM_IC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1921:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1921 | HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1981:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1981 | HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1981:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1981 | HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1944:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1944 | HAL_StatusTypeDef HAL_TIM_IC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1982:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1982 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1922:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1922 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1982:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1982 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1946:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1946 | HAL_StatusTypeDef HAL_TIM_IC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1984:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1984 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1924:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1924 | HAL_StatusTypeDef HAL_TIM_PWM_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1984:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1984 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1947:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1947 | HAL_StatusTypeDef HAL_TIM_IC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1985:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1985 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1925:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1925 | HAL_StatusTypeDef HAL_TIM_PWM_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1985:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1985 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1957:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1957 | HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1987:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1987 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData1,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1935:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1935 | HAL_StatusTypeDef HAL_TIM_IC_Init(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1987:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1987 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData1,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1958:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1958 | HAL_StatusTypeDef HAL_TIM_OnePulse_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1989:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1989 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1936:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1936 | HAL_StatusTypeDef HAL_TIM_IC_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1989:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1989 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1962:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1962 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2009:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2009 | HAL_StatusTypeDef HAL_TIM_OC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1940:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1940 | HAL_StatusTypeDef HAL_TIM_IC_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2010:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2010 | HAL_StatusTypeDef HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2009:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2009 | HAL_StatusTypeDef HAL_TIM_OC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1963:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1963 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1941:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1941 | HAL_StatusTypeDef HAL_TIM_IC_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2011:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2011 | HAL_StatusTypeDef HAL_TIM_IC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_IC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1943:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1943 | HAL_StatusTypeDef HAL_TIM_IC_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1965:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1965 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2010:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2010 | HAL_StatusTypeDef HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2012:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2012 | HAL_StatusTypeDef HAL_TIM_OnePulse_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OnePulse_InitTypeDef *sConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1966:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1966 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1944:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1944 | HAL_StatusTypeDef HAL_TIM_IC_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2014:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2014 | HAL_StatusTypeDef HAL_TIM_ConfigOCrefClear(TIM_HandleTypeDef *htim, TIM_ClearInputConfigTypeDef *sClearInputConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2011:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2011 | HAL_StatusTypeDef HAL_TIM_IC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_IC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1946:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1946 | HAL_StatusTypeDef HAL_TIM_IC_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData, uint16_t Length);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2016:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2016 | HAL_StatusTypeDef HAL_TIM_ConfigClockSource(TIM_HandleTypeDef *htim, TIM_ClockConfigTypeDef *sClockSourceConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1976:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1976 | HAL_StatusTypeDef HAL_TIM_Encoder_Init(TIM_HandleTypeDef *htim,  TIM_Encoder_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2012:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2012 | HAL_StatusTypeDef HAL_TIM_OnePulse_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OnePulse_InitTypeDef *sConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1947:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1947 | HAL_StatusTypeDef HAL_TIM_IC_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2017:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2017 | HAL_StatusTypeDef HAL_TIM_ConfigTI1Input(TIM_HandleTypeDef *htim, uint32_t TI1_Selection);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1977:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1977 | HAL_StatusTypeDef HAL_TIM_Encoder_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2018:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2018 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1957:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1957 | HAL_StatusTypeDef HAL_TIM_OnePulse_Init(TIM_HandleTypeDef *htim, uint32_t OnePulseMode);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2014:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2014 | HAL_StatusTypeDef HAL_TIM_ConfigOCrefClear(TIM_HandleTypeDef *htim, TIM_ClearInputConfigTypeDef *sClearInputConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1981:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1981 | HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2019:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2019 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro_IT(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1958:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1958 | HAL_StatusTypeDef HAL_TIM_OnePulse_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2016:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2016 | HAL_StatusTypeDef HAL_TIM_ConfigClockSource(TIM_HandleTypeDef *htim, TIM_ClockConfigTypeDef *sClockSourceConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1962:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1962 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2020:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2020 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1982:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1982 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2017:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2017 | HAL_StatusTypeDef HAL_TIM_ConfigTI1Input(TIM_HandleTypeDef *htim, uint32_t TI1_Selection);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1963:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1963 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1984:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1984 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2022:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2022 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiWriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2018:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2018 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1965:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1965 | HAL_StatusTypeDef HAL_TIM_OnePulse_Start_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1985:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1985 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2025:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2025 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1966:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1966 | HAL_StatusTypeDef HAL_TIM_OnePulse_Stop_IT(TIM_HandleTypeDef *htim, uint32_t OutputChannel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2019:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2019 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro_IT(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1987:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1987 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData1,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1976:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1976 | HAL_StatusTypeDef HAL_TIM_Encoder_Init(TIM_HandleTypeDef *htim,  TIM_Encoder_InitTypeDef *sConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2026:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2026 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2020:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2020 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1989:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1989 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2028:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2028 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1977:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1977 | HAL_StatusTypeDef HAL_TIM_Encoder_DeInit(TIM_HandleTypeDef *htim);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2009:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2009 | HAL_StatusTypeDef HAL_TIM_OC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2022:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2022 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiWriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1981:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1981 | HAL_StatusTypeDef HAL_TIM_Encoder_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2031:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2031 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2010:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2010 | HAL_StatusTypeDef HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2025:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2025 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1982:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1982 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2011:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2011 | HAL_StatusTypeDef HAL_TIM_IC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_IC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2032:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2032 | HAL_StatusTypeDef HAL_TIM_GenerateEvent(TIM_HandleTypeDef *htim, uint32_t EventSource);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1984:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1984 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2012:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2012 | HAL_StatusTypeDef HAL_TIM_OnePulse_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OnePulse_InitTypeDef *sConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2026:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2026 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:283:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  283 | HAL_StatusTypeDef HAL_Init(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2014:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2014 | HAL_StatusTypeDef HAL_TIM_ConfigOCrefClear(TIM_HandleTypeDef *htim, TIM_ClearInputConfigTypeDef *sClearInputConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1985:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1985 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_IT(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2028:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2028 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:284:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  284 | HAL_StatusTypeDef HAL_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2016:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2016 | HAL_StatusTypeDef HAL_TIM_ConfigClockSource(TIM_HandleTypeDef *htim, TIM_ClockConfigTypeDef *sClockSourceConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2031:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2031 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1987:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1987 | HAL_StatusTypeDef HAL_TIM_Encoder_Start_DMA(TIM_HandleTypeDef *htim, uint32_t Channel, uint32_t *pData1,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2017:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2017 | HAL_StatusTypeDef HAL_TIM_ConfigTI1Input(TIM_HandleTypeDef *htim, uint32_t TI1_Selection);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:287:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  287 | HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2032:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2032 | HAL_StatusTypeDef HAL_TIM_GenerateEvent(TIM_HandleTypeDef *htim, uint32_t EventSource);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:1989:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 1989 | HAL_StatusTypeDef HAL_TIM_Encoder_Stop_DMA(TIM_HandleTypeDef *htim, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2018:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2018 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:300:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  300 | HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef Freq);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:283:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  283 | HAL_StatusTypeDef HAL_Init(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2009:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2009 | HAL_StatusTypeDef HAL_TIM_OC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103x6.h:127,
+                 from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:129,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Src/init.c:8:
+../Core/Src/init.c: In function 'init_controller':
+../Drivers/CMSIS/Include/core_cm3.h:1449:39: warning: statement with no effect [-Wunused-value]
+ 1449 |   #define NVIC_SystemReset            __NVIC_SystemReset
+      |                                       ^~~~~~~~~~~~~~~~~~
+../Core/Src/init.c:24:13: note: in expansion of macro 'NVIC_SystemReset'
+   24 |             NVIC_SystemReset;
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/init.c:22:26: warning: label 'INIT_BUSY' defined but not used [-Wunused-label]
+   22 |         case INIT_ERROR: INIT_BUSY: default:
+      |                          ^~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:284:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  284 | HAL_StatusTypeDef HAL_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2019:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2019 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro_IT(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+make: *** [Core/Src/subdir.mk:37: Core/Src/init.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2010:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2010 | HAL_StatusTypeDef HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:287:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  287 | HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2020:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2020 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2011:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2011 | HAL_StatusTypeDef HAL_TIM_IC_ConfigChannel(TIM_HandleTypeDef *htim, TIM_IC_InitTypeDef *sConfig, uint32_t Channel);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:300:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  300 | HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef Freq);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2022:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2022 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiWriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2025:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2025 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2012:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2012 | HAL_StatusTypeDef HAL_TIM_OnePulse_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OnePulse_InitTypeDef *sConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+make: *** [Core/Src/subdir.mk:37: Core/Src/main.o] Error 1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2026:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2026 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2014:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2014 | HAL_StatusTypeDef HAL_TIM_ConfigOCrefClear(TIM_HandleTypeDef *htim, TIM_ClearInputConfigTypeDef *sClearInputConfig,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2028:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2028 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2016:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2016 | HAL_StatusTypeDef HAL_TIM_ConfigClockSource(TIM_HandleTypeDef *htim, TIM_ClockConfigTypeDef *sClockSourceConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2031:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2031 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2017:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2017 | HAL_StatusTypeDef HAL_TIM_ConfigTI1Input(TIM_HandleTypeDef *htim, uint32_t TI1_Selection);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2032:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2032 | HAL_StatusTypeDef HAL_TIM_GenerateEvent(TIM_HandleTypeDef *htim, uint32_t EventSource);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2018:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2018 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_hal_msp.c:22:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:283:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  283 | HAL_StatusTypeDef HAL_Init(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2019:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2019 | HAL_StatusTypeDef HAL_TIM_SlaveConfigSynchro_IT(TIM_HandleTypeDef *htim, TIM_SlaveConfigTypeDef *sSlaveConfig);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:284:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  284 | HAL_StatusTypeDef HAL_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2020:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2020 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:287:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  287 | HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2022:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2022 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiWriteStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:300:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  300 | HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef Freq);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2025:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2025 | HAL_StatusTypeDef HAL_TIM_DMABurst_WriteStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+make: *** [Core/Src/subdir.mk:37: Core/Src/stm32f1xx_hal_msp.o] Error 1
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2026:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2026 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2028:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2028 | HAL_StatusTypeDef HAL_TIM_DMABurst_MultiReadStart(TIM_HandleTypeDef *htim, uint32_t BurstBaseAddress,
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2031:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2031 | HAL_StatusTypeDef HAL_TIM_DMABurst_ReadStop(TIM_HandleTypeDef *htim, uint32_t BurstRequestSrc);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:2032:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+ 2032 | HAL_StatusTypeDef HAL_TIM_GenerateEvent(TIM_HandleTypeDef *htim, uint32_t EventSource);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+In file included from ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:255,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:30,
+                 from ../Core/Inc/types.h:11,
+                 from ../Core/Inc/init.h:11,
+                 from ../Core/Inc/main.h:25,
+                 from ../Core/Src/stm32f1xx_it.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:283:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  283 | HAL_StatusTypeDef HAL_Init(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:284:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  284 | HAL_StatusTypeDef HAL_DeInit(void);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:287:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  287 | HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:300:1: error: unknown type name 'HAL_StatusTypeDef'; did you mean 'HAL_TIM_StateTypeDef'?
+  300 | HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef Freq);
+      | ^~~~~~~~~~~~~~~~~
+      | HAL_TIM_StateTypeDef
+make: *** [Core/Src/subdir.mk:37: Core/Src/stm32f1xx_it.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
