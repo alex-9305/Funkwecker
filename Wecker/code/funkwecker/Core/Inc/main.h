@@ -29,6 +29,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f1xx_hal.h"
+#include "stm32f103x6.h"
 
 
 /* Exported functions prototypes ---------------------------------------------*/
