@@ -10,7 +10,7 @@
 
 #include "stm32f1xx_hal_def.h"
 
-#define StatusTypeDef HAL_StatusTypeDef
+#define Controller_StatusTypeDef HAL_StatusTypeDef
 #define OK HAL_OK
 #define ERROR HAL_ERROR
 #define BUSY HAL_BUSY

@@ -27,29 +27,5 @@
 extern "C" {
 #endif
 
-/* Includes ------------------------------------------------------------------*/
-#include "stm32f1xx_hal.h"
-#include "stm32f103x6.h"
-
-
-/* Exported functions prototypes ---------------------------------------------*/
-void Error_Handler(void);
-
-/* Private defines -----------------------------------------------------------*/
-#define IN_DCF_Pin GPIO_PIN_2
-#define IN_DCF_GPIO_Port GPIOB
-#define OUT_LED_DISPLAY_CLK_Pin GPIO_PIN_12
-#define OUT_LED_DISPLAY_CLK_GPIO_Port GPIOB
-#define OUT_LED_DISPLAY_DATA_Pin GPIO_PIN_13
-#define OUT_LED_DISPLAY_DATA_GPIO_Port GPIOB
-#define OUT_TEST_LED_Pin GPIO_PIN_14
-#define OUT_TEST_LED_GPIO_Port GPIOB
-/* USER CODE BEGIN Private defines */
-
-/* USER CODE END Private defines */
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif /* __MAIN_H */
