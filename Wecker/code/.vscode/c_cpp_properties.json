@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        },
+        {
+            "name": "STM32F1",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/alex/Funkwecker/Wecker/code/funkwecker/Drivers/STM32F1xx_HAL_Driver/Inc"
+                "/home/alex/Funkwecker/Wecker/code/funkwecker/Drivers/STM32F1xx_HAL_Driver/Src"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
